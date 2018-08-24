@@ -55,3 +55,5 @@ using this option you can fuzz host header with a pre-defined length entered by 
 using this option you can fuzz User-Agent header with a pre-defined length entered by the user which is 3000 bytes , and you can use the command as the following :
 
     root@kali:/opt/HTTPFuzzer# python HTTPFuzzer.py 16.173.240.71 8080 ua 3000
+### Screenshots
+![HTTP Methods fuzz](fuzz1.png)
