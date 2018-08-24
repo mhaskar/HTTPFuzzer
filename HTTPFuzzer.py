@@ -11,9 +11,9 @@ import socket
 import sys
 import time
 from termcolor import cprint
-if len(sys.argv) != 4:
-    print '''Usage : # ./fuzzer.py ip port option length
 
+if len(sys.argv) != 5:
+    print '''Usage : # ./fuzzer.py ip port option length
     options :
         all : perform all http fuzzing tests
         methods : perform fuzzing on http methods [GET, POST, PUT, HEAD]
